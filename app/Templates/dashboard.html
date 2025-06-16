@@ -1,0 +1,18 @@
+
+        <!doctype html>
+        <html>
+        <head><title>Fed-TS Dashboard</title></head>
+        <body>
+        <h1>Fed-TS Federated Learning Simulation</h1>
+        <button onclick=fetchRound()>Run Next Round</button>
+        <pre id='output'></pre>
+        <script>
+        async function fetchRound() {
+            const res = await fetch('/train_one_round');
+            const data = await res.json();
+            document.getElementById('output').innerText = JSON.stringify(data, null, 2);
+        }
+        </script>
+        </body>
+        </html>
+        
