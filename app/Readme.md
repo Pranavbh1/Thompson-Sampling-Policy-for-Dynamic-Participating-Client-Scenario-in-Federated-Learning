@@ -45,3 +45,7 @@ We introduce a smarter way to select clients by:
 We initialize a simple Flask app:
 ```python
 app = Flask(__name__)
+
+
+
+![FedTS Simulation Demo](simulation.png)
