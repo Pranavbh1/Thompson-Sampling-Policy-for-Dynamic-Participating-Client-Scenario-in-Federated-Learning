@@ -47,13 +47,13 @@ We introduce a smarter way to select clients by:
 We initialize a simple Flask app:
 ```python
 app = Flask(__name__)
-
+'''
 ### 2. Configuration
 Define how many clients and which ones are attackers:
-
+```python
 NUM_CLIENTS = 10
 LABEL_FLIP_ATTACK = [5, 9]
-
+ ...
 ### 3. Dataset Preparation
 Use MNIST (handwritten digits 0–9)
 
@@ -63,15 +63,15 @@ Attacking clients flip labels intentionally
 
 ### 4. Model Definition
 A basic 2-layer neural network:
-
+```python
 class SimpleNN(nn.Module):
     ...
 
 ### 5. Drift Measurement
 We calculate how much a client changes the global model:
-
+```python
 get_path_drift(model_before, model_after)
-
+ ...
 
 ### 6. Fed-TS Client Selection
 We use Thompson Sampling to:
