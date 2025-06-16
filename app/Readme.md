@@ -1,3 +1,5 @@
+[FedTS Simulation Demo](simulation.png)
+
 # 🧠 Federated Learning with Fed-TS (Flask Dashboard)
 
 A beginner-friendly interactive simulation of Federated Learning using **Thompson Sampling (Fed-TS)** to dynamically select trustworthy clients and block malicious ones.
@@ -48,4 +50,3 @@ app = Flask(__name__)
 
 
 
-![FedTS Simulation Demo](simulation.png)
