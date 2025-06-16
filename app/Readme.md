@@ -89,7 +89,7 @@ Block those with frequent failures
 
 /history → View training log & blocked clients
 
-🚀 ***Final Output***
+🚀 **Final Output**
 ✅ A working interactive Flask dashboard
 
 🔁 Simulate FL training one round at a time
@@ -98,7 +98,7 @@ Block those with frequent failures
 
 📊 Tracks accuracy and performance dynamically
 
-✨ ***Why This Project is Cool (For Beginners)***
+✨ **Why This Project is Cool (For Beginners)**
 ✅ Simulates real-world federated learning logic
 
 🔍 Implements trust-based client selection (Fed-TS)
@@ -107,7 +107,7 @@ Block those with frequent failures
 
 🔐 Promotes privacy-preserving, secure AI training
 
-📈 ***Future Improvements***
+📈 **Future Improvements**
 📉 Add live plots (accuracy trend per round)
 
 💾 Save model checkpoints
