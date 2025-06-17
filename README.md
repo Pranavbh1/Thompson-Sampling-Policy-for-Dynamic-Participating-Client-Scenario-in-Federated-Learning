@@ -22,3 +22,18 @@ Smartphones collaboratively train a predictive keyboard without sending text dat
 Hospitals collaboratively train a medical model without sharing patient data.
 
 
+
+______________________________________________________________________________________________________________________________________________
+
+# 🤖 Why Thompson Sampling?
+
+Problem: Malicious or unproductive clients degrade model performance if selected blindly.
+
+Solution: Use Thompson Sampling, a Bayesian multi-armed bandit approach that:
+
+● Scores each client based on success/failure (drift)
+
+● Samples from Beta distribution to balance exploration vs exploitation
+
+● Reduces participation of unreliable clients
+
